@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --background-color: #7f3b9f;
+  --gradient-color: linear-gradient(to right, #5f0a87, #a4508b);
+  --light-mode-text-color: #f4f0fb;
+  -shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
+  --shadowSupport: 0px 20px 20px 0px rgb(127 59 159 / 50%);
+  --text-color: #7f3b9f;
+  --main-padding-outline: 0 5rem;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  background-color: #ffffff;
+}
+::placeholder {
+    opacity: 0.5 !important;
+    letter-spacing:2px;
+    background-color: var(--background-color);
+    background-image: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+
+.gradient {
+  background-image: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navBar > span {
+    font-weight: 700;
+    letter-spacing:2px;
+    font-size: 1.4rem;
+}
+.main-container {
+    height: 100%;
+    width: 100%;
+
+}
+.navBar {
+    height: 10%;
+    width: 100%;
+  }
+
+.main-content {
+    width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.main-login-page {
+    width: 80%;
+    height: 80%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 33px;
+    box-shadow: 9px 9px 24px #dfe3f3, -9px -9px 24px #eff3fb;
+}
+.heading {
+    height:15%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.login-content {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.student-login, .admin-login {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-error {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-weight: 500;
+}
+.student-login {
+    border-right: 1px solid transparent;
+    border-image: linear-gradient(to right, #5f0a87, #a4508b);
+    border-image-slice: 1;
+}
+.admin-login {
+    border-left: 1px solid transparent;
+    border-image: linear-gradient(to right, #5f0a87, #a4508b);
+    border-image-slice: 1;
+}
+
+label {
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+input {
+    border: 1px solid #000000;
+}
+
+.btn-general {
+    background-color: var(--background-color);
+    background-image: var(--gradient-color);
+    color: var(--light-mode-text-color);
+    padding: 10px 40px;
+    margin: 2rem 1rem 2rem 0;
+    font-weight: 400;
+    font-size: 1rem;
+    border: none;
+    display: inline-block;
+    text-transform: uppercase;
+    outline: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .btn-general:hover,
+  .btn-general:active {
+    box-shadow: var(--shadowSupport);
+    transform: translateY(-5px);
+  }
+
