@@ -6,13 +6,15 @@
 <a href="https://parthasarathimuduli.netlify.app/">Partha Sarathi Muduli</a>
 
 <hr>
-<img src="./images/adminDashboard.jpeg">
+<img src="./images/mainLogin.jpeg">
 <h2>Project Description</h2>
 <p>
   In this project there is 2 login page, one is <b>Student/Teacher login</b> and anohther is <b>Admin login</b>.
   Also, new student/teacher can register.
 </p>
+ <img src="./images/registerPage.jpeg">
 <h3>Admin functionality</h3>
+<img src="./images/adminDashboard.jpeg">
 <br>
 <ul>
   <li>Add Book</li>
@@ -24,6 +26,7 @@
   <li>Issue Report</li>
 </ul>
 <h3>Student functionality</h3>
+<img src="./images/studentDashboard.jpeg">
 <br>
 <ul>
   <li>My Account</li>
